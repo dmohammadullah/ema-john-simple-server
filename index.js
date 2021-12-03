@@ -19,7 +19,7 @@ const port = 5000
 // console.log(process.env.DB_PASS)
 
 app.get('/', (req, res) => {
-  res.send('Yeah my server is running')
+  res.send("Hello from db it's working working")
 })
 
 
